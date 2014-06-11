@@ -2,10 +2,11 @@ StringBuilder
 =============
 
 var str = new String('0'),
-    builder = str.StringBuilder()
-			           .append('1')
-			           .append('2')
-			           .append('3');
+    
+var builder = str.StringBuilder()
+		 .append('1')
+		 .append('2')
+		 .append('3');
 			                 
 console.log(builder.toString());
 
